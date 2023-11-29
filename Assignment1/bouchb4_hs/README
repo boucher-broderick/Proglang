@@ -1,0 +1,36 @@
+Broderick Boucher
+Bouchb4
+661925539
+Prog Lang, Assignment 1
+
+Features / General Flow
+The main function that runs the program is the reducer function. Within the reducer function
+there are a number of cases. - the expression is a variable therefore can not be reduced - the expression is in the form that it can be beta reduced - the expression is an application so both expressions inside need to be reduced again - the expression is in the form that it can be eta reduced - the expression is an abstraction so the body needs to be reduced
+In any of these options the expression is either completly reduced or needs some other kind of reduction
+
+The beta function performs beta-reduction by substituting a specified variable with a given expression within another expression. It ensures safe substitutions by respecting the boundaries between bound and free variables, and avoids potential variable clashes through renaming.
+
+The eta function performs eta-reduction, simplifying abstractions of the form \x. f x to f, as long as x doesn't appear freely within f. If no simplification can occur, the original expression is returned unchanged.
+
+Helper Functions:
+There are a few helper functions that do not preform any reduction but are necessary to the program
+
+The rename function performs alpha-rename, renaming the bound variable in a lambda abstraction to avoid clashes with existing names. If the expression isn't a lambda abstraction, it's returned unchanged.
+
+The validName function generates a fresh variable name that isn't among the provided old names or free variables in the expression. Used in the rename function.
+
+The getFreeVars function finds all the free variables in an expression.
+
+The remove function removes the first occurance of a variable from the list. Used in the getFreeVars function.
+
+Problems / Bugs
+The main problems that I had were with the fact that I was unfamiliar with Haskell. It took me a while to get used to programming in the language. Luckily, I used the resources in the assignment description to help me out. As well, I did not understand what exactly the Lexp was and how one would separate it but I found the answer on the discussion forum and some snippets of code online that helped as an example.
+
+Also getting it set up on my computer was a nightmare.
+
+Once I drew out a rough map of what I wanted to code it was not too bad. I did have one problem where I could not get a seperate function which would have been used in the reducer function to check if the expression was good or needed to be reduced again. The only way I could get it to work was to add an if statement after each case in the reducer function. It might look a little bulky but the helper function I made was really breaking my code.
+
+Resources Used:
+https://hoogle.haskell.org/ (general syntax)
+http://learnyouahaskell.com/chapters (general syntax)
+ChatGpt (Help with installation bugs)

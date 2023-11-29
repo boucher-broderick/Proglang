@@ -1,0 +1,9 @@
+draco_malfoy has item c that costs 600 dollars, and occupies 60 cubic feet.
+daphne_greengrass has item d that costs 400 dollars, and occupies 15 cubic feet.
+harry_potter has item a that costs 1000 dollars, and occupies 100 cubic feet.
+ron_weasley has item x that costs 233 dollars, and occupies 13 cubic feet.
+hermione_granger has item b that costs 200 dollars, and occupies 20 cubic feet.
+hermione_granger has item c that costs 100 dollars, and occupies 30 cubic feet.
+hermione_granger has item c that costs 300 dollars, and occupies 10 cubic feet.
+slytherin house wants total volume less than 20 cubic feet and total price greater than 300 dollars.
+gryffindor house wants total price less than 600 dollars and total volume greater than 60 cubic feet.

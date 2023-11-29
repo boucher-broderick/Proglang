@@ -1,0 +1,18 @@
+susan_bones has item x that costs 400 dollars, and occupies 10 cubic feet.
+eli_olivander has item y that costs 260 dollars, and occupies 15 cubic feet.
+vince_glover has item z that costs 490 dollars, and occupies 35 cubic feet.
+terry_boot has item u that costs 350 dollars, and occupies 50 cubic feet.
+duncan_inglebee has item v that costs 125 dollars, and occupies 26 cubic feet.
+cho_chang has item w that costs 235 dollars, and occupies 34 cubic feet.
+draco_malfoy has item c that costs 600 dollars, and occupies 60 cubic feet.
+terence_higgs has item c that costs 1200 dollars, and occupies 60 cubic feet.
+daphne_greengrass has item d that costs 400 dollars, and occupies 15 cubic feet.
+harry_potter has item a that costs 1000 dollars, and occupies 100 cubic feet.
+ron_weasley has item d that costs 233 dollars, and occupies 13 cubic feet.
+hermione_granger has item b that costs 200 dollars, and occupies 20 cubic feet.
+hermione_granger has item c that costs 100 dollars, and occupies 30 cubic feet.
+hermione_granger has item c that costs 300 dollars, and occupies 10 cubic feet.
+gryffindor house wants total price greater than 500 dollars and total volume greater than 60 cubic feet.
+slytherin house wants total volume less than 50 cubic feet and total price greater than 600 dollars.
+ravenclaw house wants total volume greater than 80 cubic feet and total price greater than 700 dollars.
+hufflepuff house wants total volume less than 20 cubic feet and total price greater than 250 dollars.

@@ -1,0 +1,15 @@
+Prog Lang Assignment 2:
+
+The program is split into a few larger functions. There is the start function which takes in the files, parses the data into partition,
+then starts the PartA function and the Part B function. The Part A function creates children processes that figure out the degree of the
+nodes then sum them by color and return a Map. Each Map is then combined to produce output A. Part B is a little more complicated as I needed
+to get information from other child processes. In order to do this, Part B has a receive with multiple patterns. One to get all the child processes
+and another two for receiving and sending id requests. There are a few helper functions for Part B as well. Lastly there are two functions that handle the
+results of the part a and part b. There the results are processed formated and written into their respective files.
+
+For the Distributed portion I had a lot of trouble compiling. I could not connect the children processes to the parent. I did find some stuff online
+net_adm... type stuff and -cookies mycookies. I only really had to change the spawn functinon to spawn/4 and the my start function to accomidate for the
+handling multiple processes. I was pretty unsure and I hope the compilation will work for you because I had a lot of trouble.
+
+As far as bugs, there was the one I explained before with getting the program to run. Then there was the act of getting the processes to comunicate with each other. I may or may not have missed the part where they had to communicate so I had to redo it. Plus I did have to think about the best way to hold the data
+and send it to processes. Like most people I assume the hardest part was the pids.

@@ -1,0 +1,11 @@
+Test 1: Harry Potter and Ron Weasley are classmates: Passed
+Test 2: Harry Potter and Draco Malfoy live far away: Passed
+Test 3: Albus Dumbledore is senior to Ginny Weasley: Passed
+Test 4: Seniors of James Potter are Minerva Mcgonagall and Albus Dumbledore: Passed
+Test 5: Juniors of Bill Weasley are Fred Weasley, Ron Weasley and Ginny Weasley: Passed
+Test 6: Oldest student in the House Gryffindor is Alicia Spinnet: Passed
+Test 7: Youngest student in the House Gryffindor is Ginny Weasley: Passed
+Test 8: Oldest student in the Hufflepuff team is David Smith: Passed
+Test 9: Youngest student in the Hufflepuff team is Eli Olivander: Passed
+Test 10: Harry Potter and Draco Malfoy are rivals: Passed
+Test 11: Harry Potter and Draco Malfoy are not only rivals but also live far away from each other: Passed
